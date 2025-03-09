@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const copyConfigBtn = document.getElementById('copy-config-btn');
     const downloadConfigBtn = document.getElementById('download-config-btn');
 
-    const CLIENT_ID = 'YOUR_VK_CLIENT_ID';
-    const CLIENT_SECRET = 'YOUR_VK_CLIENT_SECRET';
-    const REDIRECT_URI = 'https://daniil-s.github.io/repostbot/configurator.html';
+    const CLIENT_ID = '6437068';
+    const CLIENT_SECRET = '2MJjPqfUReCjvTrAwPNx';
+    const REDIRECT_URI = 'https://danny-live.github.io/configurator/configurator.html';
     const SCOPE = ['wall', 'photos', 'video', 'docs', 'audio', 'offline'];
 
     let vkAccessToken = null;
