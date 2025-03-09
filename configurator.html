@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repost Bot Configurator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Welcome to Repost Bot Configurator</h1>
+        <button id="start-btn">Start</button>
+
+        <div id="telegram-config" style="display: none;">
+            <h2>Telegram Configuration</h2>
+            <label for="tg-bot-token">Telegram Bot Token:</label>
+            <input type="text" id="tg-bot-token" placeholder="Enter Telegram bot token">
+            <label for="tg-channel-id">Telegram Channel ID:</label>
+            <input type="text" id="tg-channel-id" placeholder="Enter Telegram channel ID">
+            <button id="generate-config-btn">Generate Configuration</button>
+        </div>
+
+        <div id="config-output" style="display: none;">
+            <h2>Your Configuration</h2>
+            <button id="copy-config-btn">Copy as Text</button>
+            <button id="download-config-btn">Download as File</button>
+            <pre id="config-text"></pre>
+        </div>
+    </div>
+
+    <script src="configurator.js"></script>
+</body>
+</html>
